@@ -49,7 +49,7 @@ ul {
   padding-right: 15px;
 }
 
-.logo-decoration {
+.logo-decorait {
   padding-top: 24px;
   padding-bottom: 25px;
   text-decoration: none;
@@ -502,8 +502,7 @@ p {
   padding-top: 9px;
 }
 
-.socsiec,
-.main-unit {
+.socsiec {
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -603,6 +602,8 @@ p {
 .main-unit {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   padding-bottom: 94px;
 }
 
@@ -645,6 +646,24 @@ p {
   opacity: 1;
 }
 
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-light-theme-color);
+  text-decoration: none;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-theme-color);
+  text-decoration: none;
+}
+
 .editing:hover,
 .editing:focus {
   border: 1px solid #eeeeee;
@@ -665,6 +684,7 @@ p {
 
 .editing {
   margin-right: 30px;
+  margin-bottom: 30px;
   width: 370px;
 }
 
@@ -677,25 +697,7 @@ p {
 }
 
 .subtitle {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-light-theme-color);
-  text-decoration: none;
-}
-
-.subtitle {
   margin-bottom: 4px;
-}
-
-.description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--text-theme-color);
-  text-decoration: none;
 }
 
 .edition-title {
