@@ -121,7 +121,7 @@ ul {
 .link-item:hover,
 .link-item:focus {
   color: var(--accent-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .info {
@@ -154,7 +154,7 @@ ul {
 .info-kontakt:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*hero*/
@@ -388,7 +388,7 @@ p {
   align-items: center;
   width: 44px;
   height: 44px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*our team*/
@@ -445,7 +445,7 @@ p {
 .imeges:focus {
   border: 1px solid #2196f3;
   fill: #2196f3;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*footer*/
@@ -524,7 +524,7 @@ p {
 .soc-title:hover,
 .soc-title:focus {
   background-color: var(--accent-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-title {
@@ -575,7 +575,7 @@ p {
 .button-list:focus {
   background-color: var(--accent-color);
   color: var(--title-dark-theme-color);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-list {
@@ -640,7 +640,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   opacity: 1;
 }
