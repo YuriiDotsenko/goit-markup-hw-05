@@ -609,6 +609,7 @@ p {
 
 .logo-decoration {
   display: block;
+  text-decoration: none;
 }
 
 .logo-decoration .wrapper {
@@ -652,7 +653,6 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-light-theme-color);
-  text-decoration: none;
 }
 
 .description {
@@ -661,7 +661,6 @@ p {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-theme-color);
-  text-decoration: none;
 }
 
 .editing:hover,
